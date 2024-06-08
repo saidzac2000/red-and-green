@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    font-family: cursive;
+}
+body{
+    background-image: url("img/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+canvas {
+    min-width: 100%;
+    min-height: 100%;
+    background-color: transparent;
+}
+p{
+    font-size: 20px;
+    font-family: cursive;
+    margin-left: 10px;
+}
+div{
+    display: flex;
+    margin: 10px;
+}
+button{
+    background-color: transparent;
+    border-radius: 10px;
+    border: 2.5px black solid;
+    background: white;
+}
+.BTN{
+    margin-left: 10px;
+    width: 70.5px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    background-color: hsl(0, 0%, 100%);
+    color: black;
+    display: inline-block;
+}
+a{
+    text-decoration: none;
+    color: #000000;
+}
+p{
+    background-color: white;
+    display: inline-block;
+    border-radius: 10px;
+    text-align: center;
+}
